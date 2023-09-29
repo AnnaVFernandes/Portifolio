@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body{
+    overflow: hidden;
+}
+
+.background{
+    background: linear-gradient(rgba(0,0,0,0.5) rgba(0,0,0,0.5));
+    background-image: url(colorido.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}   
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.cabeçalho-link a{
+    color: #aa13d4;
+    font-size: 20px;
+}
+
+.cabeçalho-link a:hover{
+    color: #e02680;
+    transition: 0.3s all;
+}
+
+.logo i{
+    height: 60px;
+    width: 60px;
+    background: transparent;
+    border: 1px solid #e02680;
+    color: #e02680;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button{
+    color: #e02680;
+    background: transparent;
+    border: solid 1px #e02680;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #e02680;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 200px 0 0 200px;
+}
+
+.text h3{
+    color: #aa13d4;
+    font-size: 15px;
+}
+
+.text h1{
+    color: #aa13d4;
+    margin-top: 10px;
+}
+
+.text span{
+    color: #e02680;
+}
+
+.text p{
+    color: #aa13d4;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.redes-sociais{
+    color: #e02680;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.btn{
+    margin-top: 10px;
+}
